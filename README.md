@@ -1,4 +1,5 @@
 # JanCVanB's dotfiles
 
-My personal dotfiles (OS configuration files),
+My personal dotfiles
+(configuration & personalization files for OSes & environments),
 managed by [chezmoi](https://github.com/twpayne/chezmoi)
