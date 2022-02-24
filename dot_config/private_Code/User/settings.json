@@ -1,0 +1,21 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.hover.sticky": false,
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.roc": "coffeescript"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.vimrc.enable": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Gruvbox Dark Soft",
+  "workbench.startupEditor": "none"
+}
