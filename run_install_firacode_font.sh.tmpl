@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Installing FiraCode font..."
+
+{{ if eq .chezmoi.os "linux" }}
+{{   if eq .chezmoi.osRelease.id "ubuntu" }}
+sudo add-apt-repository universe
+sudo apt install fonts-firacode
+{{   end }}
+
+{{ else if eq .chezmoi.os "darwin" }}
+echo "!!!!!!"
+echo "You must manually install Fira Code with Font Book from a release zip: https://github.com/tonsky/FiraCode/releases"
+echo "!!!!!!"
+
+{{ end }}
+echo "Finished installing FiraCode font."
