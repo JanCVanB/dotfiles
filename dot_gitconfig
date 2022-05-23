@@ -3,3 +3,5 @@
 [user]
 	email = JVanBruggen@itopia.com
 	name = Jan Van Bruggen
+[core]
+	editor = vim
